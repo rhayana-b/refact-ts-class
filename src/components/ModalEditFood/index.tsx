@@ -64,5 +64,3 @@ export const ModalEditFood = ({
     </Modal>
   );
 };
-
-export default ModalEditFood;
