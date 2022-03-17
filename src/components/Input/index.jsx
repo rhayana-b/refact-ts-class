@@ -1,9 +1,4 @@
-import {
-  useEffect,
-  useRef,
-  useState,
-  useCallback,
-} from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 
 import { useField } from '@unform/core';
 
@@ -31,7 +26,7 @@ const Input = ({ name, icon: Icon, ...rest }) => {
     registerField({
       name: fieldName,
       ref: inputRef.current,
-      path: 'value',
+      path: 'value'
     });
   }, [fieldName, registerField]);
 

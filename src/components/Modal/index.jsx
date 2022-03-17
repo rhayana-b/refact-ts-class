@@ -8,15 +8,15 @@ class Modal extends Component {
     const { isOpen } = this.props;
     this.state = {
       modalStatus: isOpen
-    }
+    };
   }
 
   componentDidUpdate(prevProps) {
     const { isOpen } = this.props;
 
     if (prevProps.isOpen !== isOpen) {
-      console.log(this.props)
-      this.setState({ modalStatus: isOpen })
+      console.log(this.props);
+      this.setState({ modalStatus: isOpen });
     }
   }
 
@@ -42,17 +42,17 @@ class Modal extends Component {
             color: '#000000',
             borderRadius: '8px',
             width: '736px',
-            border: 'none',
+            border: 'none'
           },
           overlay: {
-            backgroundColor: '#121214e6',
-          },
+            backgroundColor: '#121214e6'
+          }
         }}
       >
         {children}
       </ReactModal>
     );
   }
-};
+}
 
 export default Modal;
