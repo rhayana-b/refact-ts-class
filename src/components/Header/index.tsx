@@ -28,5 +28,3 @@ export const Header = ({ handleOpenModal }: HeaderProps) => {
     </Container>
   );
 };
-
-export default Header;

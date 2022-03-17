@@ -87,5 +87,3 @@ export const Food = ({ food, handleEditFood, handleDelete }: FoodProps) => {
     </Container>
   );
 };
-
-export default Food;
