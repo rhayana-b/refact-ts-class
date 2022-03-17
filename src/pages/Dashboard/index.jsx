@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-/* eslint-disable no-console */
 import { useEffect, useState } from 'react';
 
 import { Header } from '../../components/Header';

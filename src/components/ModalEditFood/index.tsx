@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { useRef } from 'react';
 import { FiCheckSquare } from 'react-icons/fi';
 
