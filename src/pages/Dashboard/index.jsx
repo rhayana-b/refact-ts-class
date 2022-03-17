@@ -89,7 +89,7 @@ class Dashboard extends Component {
 
     return (
       <>
-        <Header openModal={this.toggleModal} />
+        <Header handleOpenModal={this.toggleModal} />
         <ModalAddFood
           isOpen={modalOpen}
           setIsOpen={this.toggleModal}
