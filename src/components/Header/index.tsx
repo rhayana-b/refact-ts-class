@@ -7,27 +7,26 @@ import { boolean } from 'yup';
 
 type HeaderProps = {
   handleOpenModal: () => void;
-}
+};
 
 export const Header = ({ handleOpenModal }: HeaderProps) => {
-    return (
-      <Container>
-        <header>
-          <img src={Logo} alt="GoRestaurant" />
-          <nav>
-            <div>
-              <button type="button" onClick={handleOpenModal}>
-                <div className="text">Novo Prato</div>
-                <div className="icon">
-                  <FiPlusSquare size={24} />
-                </div>
-              </button>
-            </div>
-          </nav>
-        </header>
-      </Container>
-    );
-  }
-}
+  return (
+    <Container>
+      <header>
+        <img src={Logo} alt="GoRestaurant" />
+        <nav>
+          <div>
+            <button type="button" onClick={handleOpenModal}>
+              <div className="text">Novo Prato</div>
+              <div className="icon">
+                <FiPlusSquare size={24} />
+              </div>
+            </button>
+          </div>
+        </nav>
+      </header>
+    </Container>
+  );
+};
 
 export default Header;
